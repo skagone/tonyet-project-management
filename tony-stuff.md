@@ -2,11 +2,17 @@
 
 ### Three Machines
 
-## Tables
+## machines
 
-| system alias | ip  | Description |
+| system alias | ip  | description |
 | ------ |-- | ----------- |
-| ship0   | 10 . | path to data files to supply the data that will be passed into templates. |
-| steff | 10 .|  engine to be used for processing templates. Handlebars is the default. |
-| bigship    |10 . |  extension to be used for dest files. |
+| ship0   | 10.12.68.246  | mini-pangeo development/only box and project website |
+| steff1 | 10.12.69.188 |  t3a.2xlarge - for running simple models |
+| bigship    |10.12.69.45 |  m5a.4xlarge - for big jobs like mosaic ing chips |
+
+## start and stop
+
+- need to transition this activity to Gabe
+- pinstance needs to be setup on 
+- need a policy for stopping these
 
