@@ -1,8 +1,19 @@
+
 # Open Items
 
 1. agree on 10 degree and 2 degree approach
 2. dance-card viz folium notebook
 3. path_param extent viewer folium notebook
+
+
+# Project website
+- sphinx based
+- nginx from a docker container
+- run on ship0
+- use port 8080 
+- searchable
+- document cheatsheets - etc
+- one stop shop - easier to find - shared etc
 
 
 # Infrastructure
