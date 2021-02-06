@@ -1,3 +1,10 @@
+# Open Items
+
+1. agree on 10 degree and 2 degree approach
+2. dance-card viz folium notebook
+3. path_param extent viewer folium notebook
+
+
 # Infrastructure
 
 ### Three Machines
@@ -13,6 +20,32 @@
 ## start and stop
 
 - need to transition this activity to Gabe
-- pinstance needs to be setup on 
+- pinstance needs to be setup on ship0
 - need a policy for stopping these
 
+
+# Training and Transition Plan - tony as consultant from tony as developer
+
+- infrastructure
+- chip to COG mosaic run
+- etm code to gabe repo
+
+
+# Data off of S3
+
+- in: data stays - its necessary and relatively small
+- out: data always nuked as soon as we can
+- enduser: data 
+	- to the denali
+	- to the netapp; until Gabriel has his own account
+	- Kristi Kline seemed ok with this approach
+- document notes on removing data with aws s3 rm --recursive --dry
+- gather all cheat sheets into project website
+
+# Git repo consolidation
+
+- replicate basin to cloud-veg-et-v2
+	- fix etm and etops
+	- migrate etm and etops to gabe-parish repo
+- rename basin to cloud-veg-et-basin-legacy
+- remove cloud-veg-et-continent
