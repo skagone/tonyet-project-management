@@ -47,5 +47,6 @@
 - replicate basin to cloud-veg-et-v2
 	- fix etm and etops
 	- migrate etm and etops to gabe-parish repo
+	- its named cloud - should be cloud only code - emphasis in cloud - de-emphasis on local
 - rename basin to cloud-veg-et-basin-legacy
 - remove cloud-veg-et-continent
